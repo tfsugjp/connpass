@@ -1,8 +1,8 @@
-# Markdown ファイルの編集ガイドライン
+# GitHub Copilot カスタムインストラクション
 
 ## 言語設定
-- このドキュメントは日本語で記載されていますが、GitHub Copilot は英語で思考してください (Think in English)
-- 生成するコンテンツは日本語で記述してください
+- このドキュメントは日本語で記載されていますが、GitHub Copilot は内部処理や問題解決のプロセスにおいて英語で思考してください (Think in English for better model performance)
+- 最終的に生成するコンテンツやドキュメントは日本語で記述してください
 
 ## Markdown ファイルの編集方針
 
