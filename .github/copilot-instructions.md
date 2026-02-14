@@ -1,23 +1,7 @@
-# GitHub Copilot カスタムインストラクション
+# connpass イベント用レポジトリ
 
-## 言語設定
-- このドキュメントは日本語で記載されています
-- GitHub Copilot は内部処理や問題解決のプロセスにおいて英語で思考してください
-  - モデルのパフォーマンス向上のため (Think in English for better model performance)
-- 最終的に生成するコンテンツやドキュメントは日本語で記述してください
+このワークスペースは、connpass（技術コミュニティ向けイベント公開サービス）で使うイベント/グループ説明文を管理するためのものです。日本人が管理するためPRやレビューもすべて日本語で書きます。
 
-## Markdown ファイルの編集方針
+Markdownの記述ルールは、connpass公式ヘルプ https://help.connpass.com/organizers/markdown に従います。
 
-### 文書構造
-- 適切な見出しレベルを使用してください（#, ##, ###）
-- 各セクションは明確な目的を持つようにしてください
-
-### スタイル
-- 簡潔で読みやすい文章を心がけてください
-- 箇条書きを活用して情報を整理してください
-- 必要に応じてコードブロックや引用を使用してください
-
-### コンテンツガイドライン
-- 正確で最新の情報を提供してください
-- 技術的な内容は具体例を含めてください
-- リンクは適切に動作することを確認してください
+※ Markdown/HTMLの利用可能な記法（許可タグ/属性を含む）の詳細は、[.github/instructions/connpass-markdown.instructions.md](.github/instructions/connpass-markdown.instructions.md) に集約しています（`**/*.md` にのみ適用）。
