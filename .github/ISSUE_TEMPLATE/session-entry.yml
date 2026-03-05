@@ -1,0 +1,74 @@
+name: セッション応募
+title: "[セッション応募] "
+description: connpassイベント向けの登壇情報を提出するフォームです
+labels:
+  - session
+body:
+  - type: markdown
+    attributes:
+      value: |
+        以下の項目を記入してください。
+        未確定の項目がある場合は、暫定値と確定予定時期を記載してください。
+
+  - type: input
+    id: speaker_name
+    attributes:
+      label: 氏名（nickname可）
+      placeholder: 例) かめがわ / かずし
+    validations:
+      required: true
+
+  - type: textarea
+    id: contact
+    attributes:
+      label: 連絡先
+      description: メール、X(Twitter) DM、Discord など、確実に連絡できる方法
+      placeholder: |
+        例)
+        メール: example@example.com
+        X: @example
+    validations:
+      required: true
+
+  - type: input
+    id: image_url
+    attributes:
+      label: イメージ（imgタグで指定可能なURL）
+      description: connpass本文で `<img src="URL">` の `src` に指定できる、画像の直接URL
+      placeholder: 例) https://example.com/profile.png （.png/.jpg など）
+    validations:
+      required: true
+
+  - type: input
+    id: session_title
+    attributes:
+      label: セッションタイトル
+      placeholder: 例) Terraform と Azure で始める IaC
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 概要
+      description: セッションの内容を2〜5行程度で記載してください
+      placeholder: セッション概要を入力
+    validations:
+      required: true
+
+  - type: input
+    id: affiliation
+    attributes:
+      label: 所属
+      placeholder: 例) 株式会社サンプル / コミュニティ名
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: その他特記事項
+      description: 発表形式、登壇実績、補足事項などがあれば記載してください
+      placeholder: 任意
+    validations:
+      required: false
