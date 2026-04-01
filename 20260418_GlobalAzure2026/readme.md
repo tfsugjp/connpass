@@ -15,41 +15,61 @@ Azure やマイクロソフトの最新情報、参加者同士の交流など�
 |:--|:--|:--|
 |12:30| 開場・受付 | -|
 |13:00| オープニング | -|
-|13:15-14:00 |  |  |
+|13:15-14:00 |Microsoft Foundryで構築するAIエージェント開発最前線  | 宮田様 |
 |14:10-14:55 |  |  |
-|15:05-15:50 |  |  |
+|15:05-15:50 |Azure Speech で音声対応してみよう  | 亀渕様 |
 |16:00-16:45 |  |  |
-|16:55-17:40 |  |  |
+|16:55-17:40 |Azure SRE Agent or Azure Copilot observability agent?それとも…  | 亀川 |
 |17:45-18:15 | LT x 4~5 | 調整中|
 |18:15-18:30 | クロージング | -|
 
 # :microphone:登壇者
 
-##  セッション1　 
+##  セッション1　 Microsoft Foundryで構築するAIエージェント開発最前線  
 
 概要 :  
 
-### 登壇者:　
+2026年3月にGAした Microsoft Foundry Agent Service を題材に、AIエージェント開発を実践的に解説します。デモによる実装イメージの紹介から、エンタープライズ利用を支えるアーキテクチャ設計・ガバナンス・運用まで幅広く扱い、実務で活用するための勘所をお伝えします。
 
-所属: 
+### 登壇者: Miyata Taishiさま
+
+日本マイクロソフト株式会社でクラウドソリューションアーキテクト(Data＆AI)として、製造業・自動車・テクノロジー業界を中心に、Azureを活用したデータ基盤やAIソリューションの設計・導入を支援。大阪を拠点に、AI戦略策定、ガバナンス設計、生成AIの実装支援などに幅広く従事。
+
+所属: 日本マイクロソフト株式会社
 
 ## セッション2  
 
+概要 : 調整中
+
+### 登壇者: 調整中 
+
+
+## セッション3　Azure Speech で音声対応してみよう
+
 概要 : 
 
-### 登壇者:  
+STTやTTSといった音声関連のサービスであるAzure Speechについての話です。
 
+### 登壇者： 亀渕 景司
 
-## セッション3　
+<img src="https://1.gravatar.com/avatar/1e63844d0b70747471e0f1b9d8bd250712da69f1cf86757c73e8af65a6be0cc9
+" width="300">
 
-概要 : 
-
-### 登壇者：
+Microsoft Regional Director
 
 ## セッション4  
 
 ### 登壇者: 
 
+## セッション5  Azure SRE Agent or Azure Copilot observability agent?それとも…
+
+### 登壇者: 亀川 和史
+
+![kkamegawa](https://2.gravatar.com/userimage/36277227/df128e84ee241d510dc0a5dc70e74c8f?size=256)
+
+概要 :   
+
+SRE Agentとobservability Agentよく似てますが、どっち使えばいいのでしょうか？それとも使ったほうがいいでしょうか？その辺を解説していきます。
 
 # :triangular_flag:会場
 
